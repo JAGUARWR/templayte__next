@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import HomeBlogSection from "@/components/Blog/HomeBlogSection";
+import HomeBlogSection from "@/components/Blog/PortfolioGrid";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";

@@ -1,4 +1,4 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
+import SingleBlog from "@/components/Blog/ProjectCard";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";

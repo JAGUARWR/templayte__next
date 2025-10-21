@@ -1,6 +1,6 @@
 import Newsletter from "@/components/Blog/Newsletter";
 import PopularArticle from "@/components/Blog/PopularArticle";
-import SingleBlog from "@/components/Blog/SingleBlog";
+import SingleBlog from "@/components/Blog/ProjectCard";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getAllPosts, getPostBySlug } from "@/utils/markdown";
 import markdownToHtml from "@/utils/markdownToHtml";
