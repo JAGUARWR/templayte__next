@@ -1,0 +1,67 @@
+import { TeamType } from "@/types/team";
+import SectionTitle from "../Common/SectionTitle";
+import SingleTeam from "./SingleTeam";
+
+const teamData: TeamType[] = [
+  {
+    id: 1,
+    name: "Павел Русланов",
+    designation: "CEO",
+    image: "/images/team/sakne1.png",
+    telegramLink: "/#",
+  },
+  {
+    id: 2,
+    name: "Bo",
+    designation: "Next.js & Шаблоны Lead",
+    image: "/images/team/Ellipse 64.png",
+    telegramLink: "/#",
+  },
+  // {
+  //   id: 3,
+  //   name: "Andrieo Gloree",
+  //   designation: "App Developer",
+  //   image: "/images/team/team-03.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Jackie Sanders",
+  //   designation: "Content Writer",
+  //   image: "/images/team/team-04.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
+];
+
+const Team = () => {
+  return (
+    <section
+      id="team"
+      className="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
+    >
+      <div className="container">
+        <div className="mb-[60px]">
+          <SectionTitle
+            subtitle="Наша команда"
+            title="Эксперты Next.js, Дизайн и SEO"
+            paragraph="Мы не аутсорсеры, а сфокусированная команда, которая специализируется на скорости, чистом коде и безупречном SEO."
+            width="640px"
+            center
+          />
+        </div>
+
+        <div className="-mx-4 flex flex-wrap justify-center">
+          {teamData.map((team, i) => (
+            <SingleTeam key={i} team={team} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Team;
