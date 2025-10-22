@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Владелец SaaS-стартапа",
     content:
       "После перехода на Next.js мы сразу увидели скачок в конверсии. Мы гарантировали клиентам быструю загрузку, а на Tilda это было невозможно. Теперь наш сайт работает идеально, и это заметно.",
-    image: "/images/testimonials/author-01.png",
+    image: "/images/testimonials/author-01.svg",
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Директор по Маркетингу",
     content:
       "Мы потратили месяцы на оптимизацию WordPress, но так и не смогли пробить потолок в выдаче Google. С сайтом на Next.js наш трафик вырос на 30% за два месяца. Чистый код — это лучшая инвестиция в SEO.",
-    image: "/images/testimonials/author-02.png",
+    image: "/images/testimonials/author-02.svg",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Технический директор",
     content:
       "Главное — мы избавились от 'костылей' и постоянных проблем с плагинами. Сейчас у нас чистая, масштабируемая архитектура, которую легко дорабатывать и интегрировать с любым API. Next.js снял ограничения с нашего развития.",
-    image: "/images/testimonials/author-03.png",
+    image: "/images/testimonials/author-03.svg",
     star: 5,
   },
 ];

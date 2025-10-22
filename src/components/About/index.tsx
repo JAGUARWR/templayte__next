@@ -22,7 +22,7 @@ const About = () => {
                 </p>
 
                 <Link
-                  href="#"
+                  href="https://t.me/@Pavelvrl"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
                   Подробнее о Next.js

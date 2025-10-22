@@ -19,7 +19,7 @@ const CallToAction = () => {
                   Перестаньте мириться с ограничениями Tilda и WordPress. Выберите фундамент, который обеспечит рост вашего бизнеса.
                 </p>
                 <Link
-                  href="/"
+                  href="https://t.me/@Pavelvrl"
                   className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                 >
                   Заказать сайт на Next.js

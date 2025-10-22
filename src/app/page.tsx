@@ -1,5 +1,6 @@
 import About from "@/components/About";
-import HomeBlogSection from "@/components/Blog/HomeBlogSection";
+import PortfolioGrid from "@/components/Blog/PortfolioGrid";
+import ProjectCard from "@/components/Blog/ProjectCard";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -14,7 +15,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
+  title: "Next.js сайты в Новосибирске — 100/100 Lighthouse, запуск рекламы",
   description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
 };
 
@@ -32,9 +33,10 @@ export default function Home() {
       <Testimonials />
       <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
+      {/* <PortfolioGrid /> */}
+      {/* <ProjectCard /> */}
       <Contact />
-      <Clients />
+      {/* <Clients /> */}
     </main>
   );
 }
