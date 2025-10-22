@@ -5,17 +5,17 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Павел Русланов",
+    name: "Павел Сакнэ",
     designation: "CEO",
     image: "/images/team/sakne1.png",
-    telegramLink: "/#",
+    telegramLink: "https://t.me/@Pavelvrl",
   },
   {
     id: 2,
     name: "Bo",
     designation: "Next.js & Шаблоны Lead",
     image: "/images/team/Ellipse 64.png",
-    telegramLink: "/#",
+    telegramLink: "https://t.me/Jaguarwr_07",
   },
   // {
   //   id: 3,

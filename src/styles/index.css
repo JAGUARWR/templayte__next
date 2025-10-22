@@ -8,6 +8,56 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* src/styles/index.css или globals.css */
+@layer base {
+  body {
+    @apply bg-white text-body-color dark:bg-[#111928];
+  }
+}
+
+/* --- Контакты: светлая тема (фон белый) --- */
+#contact, section#contact{
+  /* можно оставить transparent, если секция и так белая */
+  background: #ffffff !important;
+}
+
+/* --- Контакты: тёмная тема (верх #0B1131, низ #111928) --- */
+html.dark #contact,
+html.dark section#contact{
+  background: linear-gradient(
+    to bottom,
+    #0B1131 0 50%,
+    #111928 50% 100%
+  ) !important;
+}
+
+
+
+/* Читаемые цвета текста внутри секции контактов */
+#contact .ud-contact-title span,
+#contact .ud-contact-title h2,
+#contact .ud-contact-content-wrapper h3,
+#contact .ud-contact-content-wrapper p,
+#contact .ud-contact-content-wrapper a{
+  color: #0f172a; /* светлая тема */
+}
+html.dark #contact .ud-contact-title span,
+html.dark #contact .ud-contact-title h2,
+html.dark #contact .ud-contact-content-wrapper h3,
+html.dark #contact .ud-contact-content-wrapper p,
+html.dark #contact .ud-contact-content-wrapper a{
+  color: #ffffff; /* тёмная тема */
+}
+
+/* (опционально) карточка справа повыше */
+#contact .rounded-lg{
+  min-height: 500px; /* поправь под вкус */
+}
+
+
+
+
+
 .sticky-menu .navbar-logo {
   @apply py-2;
 }

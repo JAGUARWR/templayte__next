@@ -63,13 +63,17 @@ const PricingBox = ({ product }: { product: Price }) => {
           </div>
         </div>
         <div className="w-full">
-          <button
-            onClick={handleSubscription}
+          <a
+            href="https://t.me/Pavelvrl"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
+            aria-label="Написать в Telegram @Pavelvrl"
           >
             Обсудить проект
-          </button>
+          </a>
         </div>
+
       </div>
     </div>
   );

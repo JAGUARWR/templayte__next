@@ -3,7 +3,7 @@ import { Price } from "@/types/price";
 export const pricingData: Price[] = [
   {
     id: "price_1NQk5TLtGdPVhGLecVfQ7mn0",
-    priceValue: "40.000 ₽",
+    priceValue: "25.000 ₽",
     nickname: "Landing",
     offers: [
       "Фундамент скорости.",
@@ -16,7 +16,7 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk55LtGdPVhGLefU8AHqHr",
-    priceValue: "60.000 ₽",
+    priceValue: "35.000 ₽",
     nickname: "Многостраничник",
     offers: [
       "Все возможности пакета Landing.",
@@ -34,7 +34,7 @@ export const pricingData: Price[] = [
   },
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    priceValue: "80.000 ₽",
+    priceValue: "50.000 ₽",
     nickname: "Интернет магазин",
     offers: [
       "Все допустимые возможности",
